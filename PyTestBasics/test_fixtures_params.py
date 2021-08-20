@@ -23,7 +23,7 @@ def init_driver(request):
 @pytest.mark.usefixtures('init_driver')
 class Base_Test:
     pass
-
+# fixtures examples
 class Test_google(Base_Test):
     def test_google_title(self):
         self.driver.get('http://www.google.com')
